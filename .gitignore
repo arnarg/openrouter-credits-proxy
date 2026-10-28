@@ -1,0 +1,19 @@
+# Binaries
+/openrouter-credits-proxy
+*.exe
+*.test
+
+# Environment files holding secrets
+.env
+.env.*
+
+# Go workspace files
+go.work
+go.work.sum
+
+# Nix build result symlinks
+/result
+/result-*
+
+# Editor/OS noise
+.DS_Store
